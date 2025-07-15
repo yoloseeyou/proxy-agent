@@ -16,9 +16,8 @@
 1.  **全局安装**:
     在项目根目录下，运行以下命令来将 `agent` 命令安装到您的系统中，使其可以在任何地方使用。
     ```bash
-    npm i @yoloseeyou/proxy-agent
+    npm i @yoloseeyou/proxy-agent -g
     ```
-    _注意：在 macOS 或 Linux 上，您可能需要添加 `sudo` 前缀: `sudo npm install -g .`_
 
 ## 使用方法
 
