@@ -1,5 +1,5 @@
 {
-  "name": "@seeyou/proxy-agent",
+  "name": "@yoloseeyou/proxy-agent",
   "version": "1.0.0",
   "description": "一个CLI工具，可快速启动一个已启用代理的隔离终端会话。",
   "main": "index.js",

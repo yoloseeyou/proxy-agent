@@ -13,19 +13,12 @@
 
 ## 安装
 
-1.  **克隆或下载项目**:
-    ```bash
-    # 示例
-    git clone https://github.com/your-username/proxy-agent.git
-    cd proxy-agent
-    ```
-
-2.  **全局安装**:
+1.  **全局安装**:
     在项目根目录下，运行以下命令来将 `agent` 命令安装到您的系统中，使其可以在任何地方使用。
     ```bash
-    npm install -g .
+    npm i @yoloseeyou/proxy-agent
     ```
-    *注意：在 macOS 或 Linux 上，您可能需要添加 `sudo` 前缀: `sudo npm install -g .`*
+    _注意：在 macOS 或 Linux 上，您可能需要添加 `sudo` 前缀: `sudo npm install -g .`_
 
 ## 使用方法
 
@@ -40,7 +33,8 @@
 ```bash
 agent set http://127.0.0.1:7890
 ```
-*请将 `http://127.0.0.1:7890` 替换为您自己的代理地址。*
+
+_请将 `http://127.0.0.1:7890` 替换为您自己的代理地址。_
 
 **第二步：启动一个带代理的终端**
 
