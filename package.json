@@ -1,0 +1,33 @@
+{
+  "name": "@seeyou/proxy-agent",
+  "version": "1.0.0",
+  "description": "一个CLI工具，可快速启动一个已启用代理的隔离终端会话。",
+  "main": "index.js",
+  "bin": {
+    "agent": "bin/agent.js"
+  },
+  "files": [
+    "index.js",
+    "bin/",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo 'No tests yet.'"
+  },
+  "keywords": [
+    "proxy",
+    "agent",
+    "cli",
+    "terminal",
+    "http-proxy",
+    "dev-tool",
+    "windows",
+    "macos"
+  ],
+  "author": "yoloseeyou",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoloseeyou/proxy-agent.git"
+  }
+}
